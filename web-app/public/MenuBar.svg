@@ -1,0 +1,5 @@
+<svg id="menubar" width="35" height="35" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path id="top" d="M10 35L23.3333 35L40 35" stroke="#E5E9F0" stroke-width="3" stroke-linecap="round"/>
+    <path id="middle" d="M10 25L16.6667 25L25 25" stroke="#E5E9F0" stroke-width="3" stroke-linecap="round"/>
+    <path id="bottom" d="M10 15L23.3333 15L40 15" stroke="#E5E9F0" stroke-width="3" stroke-linecap="round"/>
+</svg>

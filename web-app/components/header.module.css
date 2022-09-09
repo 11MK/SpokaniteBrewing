@@ -1,0 +1,25 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;    
+    background-color: #2b3339; 
+  }
+
+.headerVisible{
+    visibility: visible;
+    transition: all 0.3s;
+  }
+.headerHidden {
+    visibility: hidden;
+    transition: all 0.3s;
+    transform: translateY(-100%);
+  }
+.wrapper {
+  margin-right: auto;
+  margin-left: auto;
+
+  paddding-right: 10px;
+  padding-left: 10px
+}
