@@ -19,7 +19,7 @@ const Header = () => {
     >
       <div className=' xl:container flex flex-wrap justify-between items-center mx-auto'>
         <div className='flex items-center order-1 m-10 w-auto md:order-first'>
-          <a href='/' className=''>
+          <Link href='/' className=''>
             <Image
               src='/SpokaniteLogo3.png'
               alt='Picture of Spokanite Logo'
@@ -27,7 +27,7 @@ const Header = () => {
               height={69}
               priority
             /> 
-          </a>
+          </Link>
         </div>
         <div className='block lg:hidden'>
           <Menu as='div' className='relative inline-block text-center'>

@@ -2,7 +2,7 @@ import React from "react";
 import Up from "../public/up-icon.svg";
 import { motion } from "framer-motion";
 
-const AccordionUI = ({ title, children, Id, Index, setIndex }) => {
+const AccordionUI = ({ title, data, Id, Index, setIndex }) => {
 
   const buttonStyles = `flex group cursor-pointer mx-auto h-24 justify-between items-center ${Index == Id ? 'bg-nord-orange shadow-lg' : 'bg-nord-secondary'} hover:bg-nord-orange transition duration-200 ease-in-out relative z-20`;
   const titleStyles = `font-inter ${Index == Id ? 'text-nord-dark-gray transition duration-200 ease-in-out' : 'text-nord-dark-gray transition duration-200 ease-in-out'} font-semibold pl-4 group-hover:text-white`
@@ -55,7 +55,7 @@ const AccordionUI = ({ title, children, Id, Index, setIndex }) => {
           }}
           exit={{ opacity: 0, translateY: "30" }}
         >
-          {children}
+          {data}
         </motion.div> 
       )}
       <div className="w-full h-[2px] mx-auto bg-gray-400 transition ease-in-out duration-200"></div>

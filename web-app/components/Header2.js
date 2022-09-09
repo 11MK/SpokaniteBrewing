@@ -63,7 +63,7 @@ function Header2() {
     >
       <div className="2xl:container flex flex-wrap justify-between items-center mx-auto">
         <div className="flex items-center order-1 w-auto md:ml-6 md:order-first">
-          <a href="/">
+          <Link href="/">
             <Image
               src="/SpokaniteLogo3.png"
               alt="Picture of Spokanite Logo"
@@ -71,7 +71,7 @@ function Header2() {
               height={69}
               priority
             />
-          </a>
+          </Link>
         </div>
         <div className="block lg:hidden">
           <Menu as="div" className="relative inline-block text-center">
