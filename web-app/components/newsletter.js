@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 
-export default () => {
+function Newsletter() {
   const [email, setEmail] = useState("");
   const [state, setState] = useState("IDLE");
   const [errorMessage, setErrorMessage] = useState(null);
@@ -52,3 +52,5 @@ export default () => {
     </div>
   );
 };
+
+export default Newsletter

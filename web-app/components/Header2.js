@@ -8,6 +8,7 @@ import { header, headerVisible, headerHidden } from "./header.module.css";
 import MenuToggle from "./MenuToggle";
 import { Menu } from "@headlessui/react";
 import { useRouter } from "next/router";
+import Link from "next/link";
 
 function Header2() {
   const router = useRouter()

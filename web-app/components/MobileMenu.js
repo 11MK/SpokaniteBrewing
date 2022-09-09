@@ -19,7 +19,7 @@ const MobileMenu = () => (
 
     <motion.ul variants={variants} className="h-full relative flex  flex-col justify-center items-center mb-40">
       {itemIds.map(i => (
-        <MenuItem i={i} />
+        <MenuItem i={i} key={i}/>
       ))}
       </motion.ul>
 );
