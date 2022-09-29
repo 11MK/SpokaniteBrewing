@@ -20,14 +20,14 @@ const Carousel = () => {
       </div>
       <div className="flex underline justify-center pb-4 lg:pb-8 pt-3">
         <a href="https://www.instagram.com/spokanitebrewing/" className="mr-2 rounded-lg shadow-md py-[3px] px-[3px] bg-gradient-to-r from-[#8531ed] via-[#f70277] to-[#ff7505]">
-          <button class="bg-nord-secondary text-nord-dark-grey font-bold rounded-md hover:bg-gradient-to-r from-[#8531ed] via-[#f70277] to-[#ff7505] hover:text-white hover:fill-nord-white py-2 px-6 inline-flex items-center">
-            <span class="mr-2 text-sm">Instagram</span>
+          <button className="bg-nord-secondary text-nord-dark-grey font-bold rounded-md hover:bg-gradient-to-r from-[#8531ed] via-[#f70277] to-[#ff7505] hover:text-white hover:fill-nord-white py-2 px-6 inline-flex items-center">
+            <span className="mr-2 text-sm">Instagram</span>
             <Insta width={20} height={20}/>
           </button>
         </a>
         <a href="https://www.facebook.com/profile.php?id=100068149253590" className="ml-2 rounded-lg shadow-md py-[3px] px-[3px] bg-gradient-to-r from-[#00ccff] to-[#353ca7] ">
-          <button class="bg-nord-secondary text-nord-dark-grey font-bold hover:bg-gradient-to-r rounded-md from-[#00ccff] to-[#353ca7] hover:text-white hover:fill-nord-white py-2 px-6 inline-flex items-center">
-            <span class="mr-2 text-sm">Facebook</span>
+          <button className="bg-nord-secondary text-nord-dark-grey font-bold hover:bg-gradient-to-r rounded-md from-[#00ccff] to-[#353ca7] hover:text-white hover:fill-nord-white py-2 px-6 inline-flex items-center">
+            <span className="mr-2 text-sm">Facebook</span>
             <Faceboob width={20} height={20}/>
           </button>
         </a>

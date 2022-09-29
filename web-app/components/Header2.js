@@ -63,7 +63,7 @@ function Header2() {
     >
       <div className="2xl:container flex flex-wrap justify-between items-center mx-auto">
         <div className="flex items-center order-1 w-auto md:ml-6 md:order-first">
-          <a href="/">
+          <button onClick={() => router.push("/about2")}>
             <Image
               src="/SpokaniteLogo3.png"
               alt="Picture of Spokanite Logo"
@@ -71,10 +71,10 @@ function Header2() {
               height={69}
               priority
             />
-          </a>
+        </button>
         </div>
         <div className="block lg:hidden">
-          <Menu as="div" className="relative inline-block text-center">
+          <div as="div" className="relative inline-block text-center">
             <motion.nav initial={false} animate={isOpen ? "open" : "closed"}>
               <motion.div
                 className=" fixed top-0 w-full bg-nord-dark-grey mt-20 md:hidden"
@@ -84,7 +84,7 @@ function Header2() {
               </motion.div>
               <MenuToggle toggle={() => toggleOpen()} />
             </motion.nav>
-          </Menu>
+          </div>
         </div>
         <div
           className="hidden justify-center items-center md:flex md:order-1 flex-1"

@@ -55,7 +55,7 @@ const AccordionUI = ({ title, children, Id, Index, setIndex }) => {
           }}
           exit={{ opacity: 0, translateY: "30" }}
         >
-          {children}
+          {data}
         </motion.div> 
       )}
       <div className="w-full h-[2px] mx-auto bg-gray-400 transition ease-in-out duration-200"></div>

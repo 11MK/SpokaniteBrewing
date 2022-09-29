@@ -51,7 +51,7 @@ function test() {
           <button
             className={`bg-transparent hover:bg-nord-dark-foot text-nord-dark-foot font-semibold hover:text-white py-2 px-4 font-aldrich border border-nord-dark-foot bg-nord-white rounded shadow transition ease-in-out duration-200 `}
             type="button"
-            onclick={create_cookie("form_submitted", "true", 1)}
+            onClick={create_cookie("form_submitted", "true", 1)}
           >
             YES
           </button>

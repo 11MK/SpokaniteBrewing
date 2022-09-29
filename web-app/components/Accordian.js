@@ -34,7 +34,7 @@ const Accordion = () => {
               <AccordionUI
                 title={data.question}
                 Id={data.id}
-                children={data.answer}
+                data={data.answer}
                 Index={Index}
                 setIndex={setIndex}
               ></AccordionUI>

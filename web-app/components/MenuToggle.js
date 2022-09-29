@@ -14,7 +14,7 @@ const Path = (props) => (
 );
 
 const MenuToggle = ({ toggle }) => (
-  <Menu.Button onClick={toggle} className="ml-5 mr-5 md:hidden">
+  <button onClick={toggle} className="ml-5 mr-5 md:hidden">
     <svg width="30" height="30" viewBox="0 0 20 20" className="">
       <Path
         variants={{
@@ -36,7 +36,7 @@ const MenuToggle = ({ toggle }) => (
         }}
       />
     </svg>
-  </Menu.Button>
+  </button>
 );
 
 export default MenuToggle
