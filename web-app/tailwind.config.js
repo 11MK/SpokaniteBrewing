@@ -21,9 +21,9 @@ module.exports = {
         "nord-yellow": "#ebcb8b",
       },
       fontFamily: {
-        splinesans: ["'Spline Sans Mono', monospace"],
-        aldrich: ["'Saira', sans-serif"],
-        inter: ["'Inter', 'sans-serif"],
+        splinesans: ['"Spline Sans Mono", monospace'],
+        aldrich: ['"Saira", sans-serif'],
+        inter: ['"Inter", sans-serif'],
       },
       rotate: {
         r45: "-45deg",

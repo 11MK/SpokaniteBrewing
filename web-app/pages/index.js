@@ -1,6 +1,5 @@
 import React from "react";
 import Header2 from "../components/Header2";
-import Accordian from "../components/Accordian";
 import Footer from "../components/Footer";
 import Carousel from "../components/Carousel";
 import Newsletter from "../components/newsletter";
