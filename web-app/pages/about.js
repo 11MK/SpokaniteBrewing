@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Header2 from "../components/Header2";
 import Footer from "../components/Footer";
-import Image from "next/Image";
+import Image from "next/image";
 import { motion, useAnimation } from "framer-motion";
 
 const container = {

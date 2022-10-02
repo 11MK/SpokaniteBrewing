@@ -1,6 +1,5 @@
 import * as React from "react";
 import { motion } from "framer-motion";
-import { Menu } from '@headlessui/react';
 
 const Path = (props) => (
   <motion.path
