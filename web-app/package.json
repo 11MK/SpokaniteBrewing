@@ -10,7 +10,6 @@
     "export": "next export"
   },
   "dependencies": {
-    "@headlessui/react": "^1.6.4",
     "framer-motion": "^6.3.5",
     "next": "12.1.6",
     "next-scripts": "^0.3.4",
