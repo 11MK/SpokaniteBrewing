@@ -1,4 +1,4 @@
-import Image from "next/Image";
+import Image from "next/mage";
 import Insta from "../public/instagram-svgrepo-com.svg";
 import MobileMenu from "./MobileMenu";
 import Faceboob from "../public/facebook-svgrepo-com.svg";

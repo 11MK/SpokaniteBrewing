@@ -2,7 +2,7 @@ import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import Insta from "../public/instagram-svgrepo-com.svg";
 import Faceboob from "../public/facebook-svgrepo-com.svg";
-import Image from "next/Image";
+import Image from "next/image";
 
 const Carousel = () => {
   return (
