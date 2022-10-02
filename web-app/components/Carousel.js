@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import useMeasure from "react-use-measure";
 import LeftChev from "../public/chevron-left.svg";
 import RightChev from "../public/chevron-right.svg";
-import Image from "next/Image";
+import Image from "next/image";
 import Insta from "../public/instagram-svgrepo-com.svg";
 import Faceboob from "../public/facebook-svgrepo-com.svg";
 

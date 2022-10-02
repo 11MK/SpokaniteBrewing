@@ -1,4 +1,4 @@
-import Image from "next/mage";
+import Image from "next/image";
 import Insta from "../public/instagram-svgrepo-com.svg";
 import MobileMenu from "./MobileMenu";
 import Faceboob from "../public/facebook-svgrepo-com.svg";
@@ -6,7 +6,6 @@ import { motion, useCycle } from "framer-motion";
 import React, { useState, useEffect } from "react";
 import { header, headerVisible, headerHidden } from "./header.module.css";
 import MenuToggle from "./MenuToggle";
-import { Menu } from "@headlessui/react";
 import { useRouter } from "next/router";
 
 function Header2() {
