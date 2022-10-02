@@ -3,7 +3,6 @@ import Header2 from "../components/Header2";
 import Footer from "../components/Footer";
 import Accordian from "../components/Accordian";
 import { motion, useAnimation } from "framer-motion";
-import Image from "next/Image";
 import Vertest from "../components/VerTest";
 
 export default function Faq() {
